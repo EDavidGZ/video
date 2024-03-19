@@ -1,0 +1,50 @@
+.lessons-container {
+    display: grid;
+    grid-template-columns: repeat(2);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+/* ---------------------------pronouns================================ */
+.lessons-container-card {
+    display: grid;
+    grid-template-columns: repeat(2);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(215, 250, 248);
+    text-align: center;
+}
+
+.card-pronouns{
+    margin-top: 3rem;
+    width: 700px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
+    justify-content: center;
+    text-align: center;
+}
+.img-card{
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+
+}
+.img-card-a1{
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+}
+.img-card:hover{
+    padding: 0.5rem;
+    transition: 1s ease-in-out;
+}
